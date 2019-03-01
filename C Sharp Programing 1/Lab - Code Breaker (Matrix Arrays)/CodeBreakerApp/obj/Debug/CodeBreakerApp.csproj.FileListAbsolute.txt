@@ -1,0 +1,10 @@
+C:\Users\lynkf\source\repos\CodeBreakerApp Solution\CodeBreakerApp\bin\Debug\CodeBreakerApp.exe.config
+C:\Users\lynkf\source\repos\CodeBreakerApp Solution\CodeBreakerApp\bin\Debug\CodeBreakerApp.exe
+C:\Users\lynkf\source\repos\CodeBreakerApp Solution\CodeBreakerApp\bin\Debug\CodeBreakerApp.pdb
+C:\Users\lynkf\source\repos\CodeBreakerApp Solution\CodeBreakerApp\obj\Debug\CodeBreakerApp.csprojAssemblyReference.cache
+C:\Users\lynkf\source\repos\CodeBreakerApp Solution\CodeBreakerApp\obj\Debug\CodeBreakerApp.Properties.Resources.resources
+C:\Users\lynkf\source\repos\CodeBreakerApp Solution\CodeBreakerApp\obj\Debug\CodeBreakerApp.csproj.GenerateResource.cache
+C:\Users\lynkf\source\repos\CodeBreakerApp Solution\CodeBreakerApp\obj\Debug\CodeBreakerApp.csproj.CoreCompileInputs.cache
+C:\Users\lynkf\source\repos\CodeBreakerApp Solution\CodeBreakerApp\obj\Debug\CodeBreakerApp.exe
+C:\Users\lynkf\source\repos\CodeBreakerApp Solution\CodeBreakerApp\obj\Debug\CodeBreakerApp.pdb
+C:\Users\lynkf\source\repos\CodeBreakerApp Solution\CodeBreakerApp\obj\Debug\CodeBreakerApp.CodeBreaker.resources

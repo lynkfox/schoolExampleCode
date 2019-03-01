@@ -1,0 +1,10 @@
+C:\Users\lynkf\source\repos\BurgerPickerApp_Solution\BurgerPickerApp\bin\Debug\BurgerPickerApp.exe.config
+C:\Users\lynkf\source\repos\BurgerPickerApp_Solution\BurgerPickerApp\bin\Debug\BurgerPickerApp.exe
+C:\Users\lynkf\source\repos\BurgerPickerApp_Solution\BurgerPickerApp\bin\Debug\BurgerPickerApp.pdb
+C:\Users\lynkf\source\repos\BurgerPickerApp_Solution\BurgerPickerApp\obj\Debug\BurgerPickerApp.csprojAssemblyReference.cache
+C:\Users\lynkf\source\repos\BurgerPickerApp_Solution\BurgerPickerApp\obj\Debug\BurgerPickerApp.CreateABurger.resources
+C:\Users\lynkf\source\repos\BurgerPickerApp_Solution\BurgerPickerApp\obj\Debug\BurgerPickerApp.Properties.Resources.resources
+C:\Users\lynkf\source\repos\BurgerPickerApp_Solution\BurgerPickerApp\obj\Debug\BurgerPickerApp.csproj.GenerateResource.cache
+C:\Users\lynkf\source\repos\BurgerPickerApp_Solution\BurgerPickerApp\obj\Debug\BurgerPickerApp.csproj.CoreCompileInputs.cache
+C:\Users\lynkf\source\repos\BurgerPickerApp_Solution\BurgerPickerApp\obj\Debug\BurgerPickerApp.exe
+C:\Users\lynkf\source\repos\BurgerPickerApp_Solution\BurgerPickerApp\obj\Debug\BurgerPickerApp.pdb

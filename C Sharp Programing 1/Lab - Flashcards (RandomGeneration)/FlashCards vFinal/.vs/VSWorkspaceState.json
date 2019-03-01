@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FlashCards",
+    "\\FlashCards\\FlashCards",
+    "\\FlashCards\\FlashCards\\bin",
+    "\\FlashCards\\FlashCards\\bin\\Debug",
+    "\\FlashCards\\FlashCards\\bin\\Release",
+    "\\FlashCards\\FlashCards\\obj",
+    "\\FlashCards\\FlashCards\\obj\\Debug",
+    "\\FlashCards\\FlashCards\\obj\\Release",
+    "\\FlashCards\\FlashCards\\Properties"
+  ],
+  "SelectedNode": "\\FlashCards\\FlashCards\\Flashcards.cs",
+  "PreviewInSolutionExplorer": false
+}

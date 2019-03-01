@@ -1,0 +1,20 @@
+C:\Users\lynkf\source\repos\Lab3MortgageCalc\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.csprojAssemblyReference.cache
+C:\Users\lynkf\source\repos\Lab3MortgageCalc\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.Form1.resources
+C:\Users\lynkf\source\repos\Lab3MortgageCalc\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.Properties.Resources.resources
+C:\Users\lynkf\source\repos\Lab3MortgageCalc\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.csproj.GenerateResource.cache
+C:\Users\lynkf\source\repos\Lab3MortgageCalc\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.csproj.CoreCompileInputs.cache
+C:\Users\lynkf\source\repos\Lab3MortgageCalc\Lab3MortgageCalc\bin\Debug\Lab3MortgageCalc.exe.config
+C:\Users\lynkf\source\repos\Lab3MortgageCalc\Lab3MortgageCalc\bin\Debug\Lab3MortgageCalc.exe
+C:\Users\lynkf\source\repos\Lab3MortgageCalc\Lab3MortgageCalc\bin\Debug\Lab3MortgageCalc.pdb
+C:\Users\lynkf\source\repos\Lab3MortgageCalc\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.exe
+C:\Users\lynkf\source\repos\Lab3MortgageCalc\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.pdb
+C:\Users\lynkf\source\repos\Lab8-9MortgageCalc w-Exceptions\Lab3MortgageCalc\bin\Debug\Lab3MortgageCalc.exe.config
+C:\Users\lynkf\source\repos\Lab8-9MortgageCalc w-Exceptions\Lab3MortgageCalc\bin\Debug\Lab3MortgageCalc.exe
+C:\Users\lynkf\source\repos\Lab8-9MortgageCalc w-Exceptions\Lab3MortgageCalc\bin\Debug\Lab3MortgageCalc.pdb
+C:\Users\lynkf\source\repos\Lab8-9MortgageCalc w-Exceptions\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.csprojAssemblyReference.cache
+C:\Users\lynkf\source\repos\Lab8-9MortgageCalc w-Exceptions\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.Form1.resources
+C:\Users\lynkf\source\repos\Lab8-9MortgageCalc w-Exceptions\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.Properties.Resources.resources
+C:\Users\lynkf\source\repos\Lab8-9MortgageCalc w-Exceptions\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.csproj.GenerateResource.cache
+C:\Users\lynkf\source\repos\Lab8-9MortgageCalc w-Exceptions\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.csproj.CoreCompileInputs.cache
+C:\Users\lynkf\source\repos\Lab8-9MortgageCalc w-Exceptions\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.exe
+C:\Users\lynkf\source\repos\Lab8-9MortgageCalc w-Exceptions\Lab3MortgageCalc\obj\Debug\Lab3MortgageCalc.pdb

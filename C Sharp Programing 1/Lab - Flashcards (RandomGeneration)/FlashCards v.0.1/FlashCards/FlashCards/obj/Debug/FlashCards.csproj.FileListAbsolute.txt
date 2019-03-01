@@ -1,0 +1,10 @@
+C:\Users\lynkf\source\repos\FlashCards\FlashCards\FlashCards\obj\Debug\FlashCards.csprojAssemblyReference.cache
+C:\Users\lynkf\source\repos\FlashCards\FlashCards\FlashCards\obj\Debug\FlashCards.Flashcards.resources
+C:\Users\lynkf\source\repos\FlashCards\FlashCards\FlashCards\obj\Debug\FlashCards.Properties.Resources.resources
+C:\Users\lynkf\source\repos\FlashCards\FlashCards\FlashCards\obj\Debug\FlashCards.csproj.GenerateResource.cache
+C:\Users\lynkf\source\repos\FlashCards\FlashCards\FlashCards\obj\Debug\FlashCards.csproj.CoreCompileInputs.cache
+C:\Users\lynkf\source\repos\FlashCards\FlashCards\FlashCards\bin\Debug\FlashCards.exe.config
+C:\Users\lynkf\source\repos\FlashCards\FlashCards\FlashCards\bin\Debug\FlashCards.exe
+C:\Users\lynkf\source\repos\FlashCards\FlashCards\FlashCards\bin\Debug\FlashCards.pdb
+C:\Users\lynkf\source\repos\FlashCards\FlashCards\FlashCards\obj\Debug\FlashCards.exe
+C:\Users\lynkf\source\repos\FlashCards\FlashCards\FlashCards\obj\Debug\FlashCards.pdb
