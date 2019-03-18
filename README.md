@@ -54,4 +54,8 @@ A First Level java programing course. Assumes only basic understanding of progra
 
 ## Lab 6 
 * A - Console: making use of Methods
-* B - Appliet, using swing: make use of methods. (This lab was given to us as a skeleton, we only had to do the methods)
+* B - Applet, using swing: make use of methods. (This lab was given to us as a skeleton, we only had to do the methods)
+
+## Lab 7
+* A - Console: Avg an array with a Method, as well as overloading methods
+* B - Console: Basic linear search using a method. 
