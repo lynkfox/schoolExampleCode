@@ -59,3 +59,10 @@ A First Level java programing course. Assumes only basic understanding of progra
 ## Lab 7
 * A - Console: Avg an array with a Method, as well as overloading methods
 * B - Console: Basic linear search using a method. 
+
+## simpleRectangle
+* In class exercise in Object / Class creation
+
+## Lab 8
+* Create a class called Car that takes a model year and a make, and can show the car accellerating and breaking.
+* Console: Create the main class that uses methods to error check for model year and nonempty make string, then accelarates the car 5 times and breaks 5 time.
