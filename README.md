@@ -70,3 +70,7 @@ A First Level java programing course. Assumes only basic understanding of progra
 ## Lab 9
 * BankAcctDemo.java provided by instructor
 * Console: Create the external class CheckAcct that has various Accessors, Mutators, and a static variable that needs its own accessor and mutator.
+
+## Lab 10
+* Exception Handling
+* Swing Applet to handle commissions and sales using exception handling for error catching.
