@@ -26,10 +26,12 @@ A basic calculator using windows forms. Second pass of this project added basic 
 
 ## Java Programing I
 
-A First Level java programing course. Assumes only basic understanding of programing concepts, put pushes more into depth as time goes on.
+A First Level java programing course. Assumes only basic understanding of programing concepts, but pushes more into depth as time goes on.
 
 
-* See Doc files in each folder for more information on the paramters of the assignment.
+* See Doc file in the main folder for more details about each lab assignment.
+
+
 ## Lab 1
  * A - Console: Making use of Scanner for input 
  * B - Console: Generic Splash Screen
