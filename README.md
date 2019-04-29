@@ -76,3 +76,7 @@ A First Level java programing course. Assumes only basic understanding of progra
 ## Lab 10
 * Exception Handling
 * Swing Applet to handle commissions and sales using exception handling for error catching.
+
+## Lab 11
+* Additional Exception Handling, in Console
+* Note, Main() Method and Method names provided by professor (I would have prefered for output not to require any paramaters, and call the functions inside it)
