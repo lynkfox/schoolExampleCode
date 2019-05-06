@@ -1,0 +1,96 @@
+/*
+   CSCI2467        Final
+   Programmer:	   Keyser Soze (Anthony Goh)
+   Date: 5/6/19
+   Program Name:   TestMultiply.java
+*/
+
+import java.io.*;
+
+public class testMultiply
+{
+
+  public static void main(String[] args )
+  {
+    //Declaring variables
+    int multiplier;
+    double correct;
+
+
+
+    //Opening messages
+    System.out.Println("\t\tWelcome to the Multiplication Quiz");
+    System.out.println("");
+
+    //Calling the user-defined methods
+    multiplier = getNumber();
+    corect = takeQuiz(multiplier);
+    System.out.println("\t\tYou got "+correct+ " correct!" );
+
+  }
+
+   public static int getNumber()
+   {
+      //Declaring variables
+
+ 	Scanner input = new Scanner();
+      int multiplier;
+
+
+		  //Get a value from user
+		  System.out.print("Enter the multiplication table you wish to practice:  ");
+
+			 multiplier = input.nextDouble();
+			  System.out.println();
+
+
+
+
+
+      //Return a value to main
+      return multiplier;
+
+   }
+
+   public static int takeQuiz(int multiplier)
+   {
+     //Delcaring variablaes
+
+      int answer;
+      int count = 0;
+      int correct = 0;
+
+       Scanner input = new Scanner(System.in);
+
+
+      while (cout <= 12)
+      {
+
+
+				 //Display question and get answer
+				 System.out.println( "What is "+count + " times " + multiplier +"?" );
+
+					answer =input.nextInt();
+
+				 if (answer == count * multiplier)
+				 {
+					System.out.println("\tCorrect!");
+					correct = correct + 1;
+				 }
+
+				 else
+				 {
+				   System.out.println("\tIncorrect");
+				 }
+
+				count + 1 = count;
+
+
+
+
+      }
+
+      return correct;
+   }
+}
+

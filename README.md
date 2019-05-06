@@ -28,8 +28,9 @@ A basic calculator using windows forms. Second pass of this project added basic 
 
 A First Level java programing course. Assumes only basic understanding of programing concepts, but pushes more into depth as time goes on.
 
+It is important to note that most of the labs were provided with either some starting code, or strict parameters on what methods to use and how to call them, what they should return. Most of these are far more broken out than my typcial approach, but one must adhere to the parameters of the project, unless there is ample reason to do otherwise (and in class, there is little reason not to).
 
-* See Doc file in the main folder for more details about each lab assignment.
+* Each lab has a corresponding Doc file, that has the parameters and restrictions of the lab, as well as example outputs
 
 
 ## Lab 1
@@ -80,3 +81,7 @@ A First Level java programing course. Assumes only basic understanding of progra
 ## Lab 11
 * Additional Exception Handling, in Console
 * Note, Main() Method and Method names provided by professor (I would have prefered for output not to require any paramaters, and call the functions inside it)
+
+## Lab 12 - Final
+* TestMultiply.java - this was a debug assignment. Had to debug and add exception handling. The original code is found in Initial Code to Debug.txt
+* FinalATG - A console program that uses the methods getNum1(), getNum2(), that both return non 0 integers, with exception handling, and an Output() method that displays arithmetic functions as done by java.
