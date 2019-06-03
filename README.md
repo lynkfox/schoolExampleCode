@@ -106,3 +106,5 @@ Files within this directory are various aspects of the Capstone Project. The ful
 Working through connecting to a SQL database, getting information from it, and inserting new information. It is very dirty and ugly, but it uses the MySQLClient Library, in order to connect, draw data into a dataTable for display, and insert additional data.
 
 This was effectively a proof of concept for our project as well - if we couldn't get this done, we couldn't do any of the rest.
+
+**Note** This app currently uses a connection to a free sql hosting site that deletes databases after 30 days of non use. As it was for a proof of concept, I didn't need the database to stay around long. As such it probably won't work without updating the connection string information, and rebuilding the table on a new database.
