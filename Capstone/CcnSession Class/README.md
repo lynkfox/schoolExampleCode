@@ -17,8 +17,11 @@ This is a work in progress at the moment. Current To Do List is to change the bo
 It uses a connection file in resources that is set up as:
 
 server-address
+
 databasename
+
 userid
+
 password
 
 
