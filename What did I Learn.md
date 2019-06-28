@@ -31,3 +31,15 @@ As of this writing, and the test app creation, I do not know why the original co
 What I did learn through this experiment app was that libraries can be fickle. I gained a bit of an understanding of what libraries really are that I hadn't had before. Conceptually I understood the library idea. I even made use of them, often of course. There are may 'using' lines in my code.  But I had not truely understood what using a library, getting it through NuGet was about until this point.  I probably still have a lot to understand, but the method, the use, and the general understanding of the entire idea of libraries is much more solidified in my mind now.
 
 
+## CcnSession.dll
+
+### * Class: Capstone
+### * Problem: Lots of stuff.
+
+I learned quite a bit through this. I learned how to really make use of a static object (and why it is useful here, and somewhat why it is a BAD idea). I really learned a lot about how to make a class, what it means, what having a couple dozen methods will make a class feel like.
+
+I thought about ways to break the class up into smaller sections (maybe like SQL.Inventory and SQL.User and SQL.Orders) but in the end decided to keep it all the same.
+
+I did a lot of thinking about overloads, and have a pretty good wrap around on them now.
+
+Because I was developing this class as part of a group project, it gave me great hands on experience on what you NEED to have done before you tell people to start using it... so many times I had to go back and add a new method that I hadn't considered before. Sure I had generic methods that could do pretty much anything we wanted, but it wasn't what my goal was with the class. And so I have a very good understanding now of just how much planning you should put into an object like this (ie: method names, paramaters, overloads, all needed BEFORE anyone starts coding ... because they are going to be very upset if you keep changing how things work on them, or don't have a method set up yet...)

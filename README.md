@@ -101,6 +101,10 @@ It is important to note that most of the labs were provided with either some sta
 Files within this directory are various aspects of the Capstone Project. The full project will be located in a different git when it is finished/in progress. These files are personal test cases I developed for working through various problems of the project before implimenting them in the full project git.
 
 
+## Full Project git
+
+see https://github.com/sbinmakhashen/CSCC-Flowers-Poject for the full git of the capstone project.
+
 ### TestSQL Connection
 
 Working through connecting to a SQL database, getting information from it, and inserting new information. It is very dirty and ugly, but it uses the MySQLClient Library, in order to connect, draw data into a dataTable for display, and insert additional data.
