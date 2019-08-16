@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "Uploaded";
+
+}
+@model RowCount;
+
+<h1>Uploaded</h1>
+
+
+@if (@Model.NotChanged)
+{
+    <p>The file you selected had an Execution Time of earlier than the last file uploaded to the database. No data was uploaded.</p>
+}
+else
+{
+    <p>You Have successfully Uploaded a new version of the class list.  Hopefully everything Updated =)</p>
+
+    <p>We Read in @Model.rowsCounted rows, of which @Model.rowsImported  were valid lines (We ignored @Model.rowLabs that were second lines of a section (such as the Lab or the Online Component of a Blended Class.)</p>
+
+    <p>@Model.rowsProfessor new rows were imported into the Professors table.</p>
+
+    <p>@Model.rowsCourses  new rows were imported into the Courses table.</p>
+
+    <p>@Model.rowsSections new rows were imported into the Sections table, and @Model.rowsUpdated rows were updated.</p>
+}
+
+
+
+
+
+<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>

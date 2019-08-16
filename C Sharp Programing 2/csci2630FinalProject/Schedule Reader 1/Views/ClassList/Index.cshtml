@@ -1,0 +1,91 @@
+﻿@model IEnumerable<Schedule_Reader_1.Models.ClassList>
+@{ int cardNum = 1; int x = 0;}
+
+@{
+    ViewData["Title"] = "Class List";
+}
+
+<h1>Class List</h1> 
+<p> List last generated for this page on @ViewBag.Time.</p>
+<p> List last updated in database on @ViewBag.Updated</p>
+
+    @foreach (var item in Model)
+    {
+        <div class="accordion" id="accordionBlock">
+            <div class="card z-depth-0 bordered">
+
+                <div class="card-header" id="heading_@cardNum">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed " type="button" data-toggle="collapse" data-target="#collapse_@cardNum" aria-expanded="false" aria-controls="collapse_@cardNum">
+                            <div class="row">
+                                <div class="col-2">
+                                    <i>@Html.DisplayFor(modelItem => item.Course.Semester)</i>
+                                </div>
+                                <div class="col-3">
+                                    <b>@Html.DisplayFor(modelItem => item.Course.Department)-@Html.DisplayFor(modelItem => item.Course.CourseNumber)</b>
+                                </div>
+                                <div class="col-7"><center><i>Click for Individual Sections and Description</i></center></div>
+                            </div>
+                        </button>
+                    </h5>
+                </div>
+
+
+                <div id="collapse_@cardNum" class="collapse" aria-labelledby="heading_@cardNum"
+                     data-parent="#accordionBlock">
+                    <div class="card-body">
+                        <p>@Html.DisplayFor(modelItem => item.Course.Description)</p>
+
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <th>Synonym</th>
+                                    <th>Section Number</th>
+                                    <th>Type</th>
+                                    <th>Professor</th>
+                                    <th>Days</th>
+                                    <th>Time</th>
+                                    <th>Building</th>
+                                    <th>Room</th>
+                                    <th>Enrolled</th>
+                                    <th>Max</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var section in item.Sections)
+                                {
+                                    if (x >= item.Professors.Count)
+                                    {
+                                        x = 0;
+                                    }
+                                    
+                                    System.Diagnostics.Debug.WriteLine("Professor Name: " +item.Professors[x] + " | Section: " + section.Synonym + " | X: " +x);
+                                        
+                                    <tr>
+                                        <td>@Html.DisplayFor(sectionItem => section.Synonym)</td>
+                                        <td>@Html.DisplayFor(sectionItem => section.SectionNum)</td>
+                                        <td>@Html.DisplayFor(sectionItem => section.Type)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.Professors[x])</td>
+                                        <td>@Html.DisplayFor(sectionItem => section.Days)</td>
+                                        <td>@Html.DisplayFor(sectionItem => section.Time)</td>
+                                        <td>@Html.DisplayFor(sectionItem => section.Building)</td>
+                                        <td>@Html.DisplayFor(sectionItem => section.Room)</td>
+                                        <td>@Html.DisplayFor(sectionItem => section.ActiveStudents)</td>
+                                        <td>@Html.DisplayFor(sectionItem => section.MaxStudents)</td>
+                                    </tr>
+                                    x++;
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        cardNum++;
+    }
+
+
+
+
+
+

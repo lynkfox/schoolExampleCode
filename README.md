@@ -27,8 +27,38 @@ A basic calculator using windows forms. Second pass of this project added basic 
 
 ## C# II
 
-This class will be going into much more in depth development with C#, including, but not limited to, ASP.net, MVCs, regex, linq, and many other aspects of full stack development along the axis of C#
+This class will be going into much more in depth development with C#, including, but not limited to, ASP.net, MVCs, regex, linq, and many other aspects of full stack development along the axis of C#.
 
+A note about the teaching style of this class:
+
+This class was taught more in a 'learn together' manner. The teacher had projects and goals to make, but we worked through them as a group, but on our own versions. We had direction and help, and were encouraged to take them our own way.
+
+
+### Readability
+
+This was a simple MVC app to take in a section of text and figure out the Readability level of it. There are a few iterations in the project, changing simple details as we attempted to work into more detailed iterations of the assignment
+
+### Free Weather
+
+This mvc app was to take a JSON provided by an API, parse the information, get what we needed out of it, and display it. I did this app on my own, outside of class, though it was guided in general by the professor.
+
+### DatabaseADOTest and EntityFramework
+
+These were apps working with AWS RDS server hosting a msSQL server. Connecting to, building basic scaffalolded views, and performing very basic (auto generated) CRUD operations.
+
+Note: the AWS server was on a classroom account, that has been since shut down. The app will not run successfully now.
+
+###csci2630FinalProject
+
+As noted above, the class was very laid back. This was our semester project. We didn't hae time to finish it. As of this upload, I haven't had time to go back and finish it either, though I have a thought to do so.
+
+We were to take csv file, parse the information, and upload it to tables on the RDS using Entity Framework. Then create a single view CRUD page (rather than the automatically generated CRUD pages)
+
+Again, this was mostly done on my own time outside of class, though I had plenty of guidance. We were only required to use the file provided, and be able to add at least 5 columns to the databases, plus the Professors (in a seperate table). 
+
+My version was able to successfully insert the data, check to make sure it wasn't inserting the same information, provide it back in a much easier to read view (Accordion Cards, using Bootstrap). I submitted the data into 3 seperate tables, though considered more for 'Future proofing'. 
+
+I was not able to successfully get the single view CRUD to work properly before this version of the app and the end of class. 
 
 ## Java Programing I
 

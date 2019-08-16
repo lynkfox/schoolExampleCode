@@ -26,9 +26,13 @@ Either it gave a connection time out error, server does not exist error, or a 'F
 
 Four hours I tried. Eventually I stumbled upon a stack overflow post saying that, for mySQL their connection string was wrong. it then used a MySqlConnectionStringBuilder to build the connection string. It took me a bit to figure out which library that was, but when I did, I switched immediately and it worked on the first try.
 
-As of this writing, and the test app creation, I do not know why the original connection string was not working. Maybe I did not have something setup properly in VisualStudio 2019. (Event Handler for databases not setup?) Maybe it had something to do with just how the program was being compiled. 
+~~As of this writing, and the test app creation, I do not know why the original connection string was not working. Maybe I did not have something setup properly in VisualStudio 2019. (Event Handler for databases not setup?) Maybe it had something to do with just how the program was being compiled. ~~
 
 What I did learn through this experiment app was that libraries can be fickle. I gained a bit of an understanding of what libraries really are that I hadn't had before. Conceptually I understood the library idea. I even made use of them, often of course. There are may 'using' lines in my code.  But I had not truely understood what using a library, getting it through NuGet was about until this point.  I probably still have a lot to understand, but the method, the use, and the general understanding of the entire idea of libraries is much more solidified in my mind now.
+
+#### Update
+
+I believe, (several months after writing this section), that is most likely because I did not realize that data.Sql is going to connect to a SQL server. And I was using a mySql server. I am not certain that this is the reason, but I could very well see it, now that, after having come to a much greater understanding of the differences (and that there are).
 
 
 ## CcnSession.dll
@@ -43,3 +47,17 @@ I thought about ways to break the class up into smaller sections (maybe like SQL
 I did a lot of thinking about overloads, and have a pretty good wrap around on them now.
 
 Because I was developing this class as part of a group project, it gave me great hands on experience on what you NEED to have done before you tell people to start using it... so many times I had to go back and add a new method that I hadn't considered before. Sure I had generic methods that could do pretty much anything we wanted, but it wasn't what my goal was with the class. And so I have a very good understanding now of just how much planning you should put into an object like this (ie: method names, paramaters, overloads, all needed BEFORE anyone starts coding ... because they are going to be very upset if you keep changing how things work on them, or don't have a method set up yet...)
+
+## CSharp2 In General
+
+### * Problems: Entity Framework!
+
+While It was not actually any specific project within this class (though I did learn very interesting code during the class) it was the Personal Project I began working on after class was over.
+
+found at: https://github.com/lynkfox/WarframeTilesets
+
+I learned quite a lot about EntityFramework on this project. I also made a very concious effort to follow as many Good Code conventions as I could, I tried to follow 'CodeFirst' in Entity Framework as well (though I did not have the app create the database schema. This is a thought to complete in the future). 
+
+I gained a much more indepth knowledge of working with SQL server over MySql that I used for the Capstone project.
+
+I learned very interesting things about how much EntityFramework does for you! For instance, having an property of an object in a Database Model as the ForeignKey field, and Cascade Updates on will create the entry in that table that corresponds with the object if you set that property equal to the object it should be. (Before I came to understand this there were lots of duplicate entries and 'Key Already Exists' errors). 

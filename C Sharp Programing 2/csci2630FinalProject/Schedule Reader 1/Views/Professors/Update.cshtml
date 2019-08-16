@@ -1,0 +1,158 @@
+﻿@model Schedule_Reader_1.ViewModels.ProfessorVM
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Professor Information</h1>
+
+<form>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Select existing person to edit or delete . . . </label>
+            <select id="peopleList" class="form-control" asp-for="SelectProfId" asp-items="@(new SelectList(Model.ProfList, "Id", "Name"))"></select>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label asp-for="Name" class="control-label"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-5">
+            <label asp-for="Email" class="control-label"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-4">
+            <label asp-for="Department" class="control-label"></label>
+            <select id="Departments" class="form-control" asp-for="Department" asp-items="@(new SelectList(Model.Departments, "Department"))"></select>
+        </div>
+        
+        </div>
+    <hr />
+              <div class="form-row">
+                  <div id="pageButtons" class="row options-bar dark-background">
+                      <div class="col-md-3">
+                          <button type="button" class="btn btn-sm btn-primary btn-block" data-id="create">Create</button>
+                      </div>
+
+                      <div class="col-md-3">
+                          <button type="button" class="btn btn-sm btn-primary btn-block" data-id="update">Update</button>
+                      </div>
+
+                      <div class="col-md-3">
+                          <button type="button" class="btn btn-sm btn-danger btn-block" data-id="delete">Delete</button>
+                      </div>
+
+                      <div class="col-md-3">
+                          <button type="button" class="btn btn-sm btn-info btn-block" data-id="clear">Clear</button>
+                      </div>
+                  </div>
+              </div>
+    
+</form>
+
+@section Scripts {
+    <script>
+        var profId;
+        $('button[data-id="update"]').prop('disabled', true);
+        $('button[data-id="delete"]').prop('disabled', true);
+
+        $("#peopleList").change(function () {
+            profId = $('#peopleList').val();
+            if (profId == 999999) {
+                clearFields();
+                return;
+            }
+
+            getPerson();
+        });
+
+        $('#pageButtons button').click(function () {
+            let selector = $(this).attr('data-id');
+            switch (selector) {
+                case 'create':
+                    createPerson();
+                    break;
+                case 'update':
+                    updatePerson();
+                    break;
+                case 'delete':
+                    deletePerson();
+                    break;
+                case 'clear':
+                    clearFields();
+                    break;
+                default:
+                    break;
+            }
+        });
+
+        var clearFields = function () {
+            $('#Name').val('');
+            $('#Email').val('');
+            $('#peopleList').val(999999);
+            $('#departments').val(0);
+
+            $('button[data-id="update"]').prop('disabled', true);
+            $('button[data-id="delete"]').prop('disabled', true);
+            $('button[data-id="create"]').prop('disabled', false);
+        };
+
+        var getPerson = function () {
+            let url = '@Url.Action("GetProf", "Professors")';
+            $.get(url, { id: profId }, function (response, status) {
+                $('#Name').val(response.Name);
+                $('#Email').val(response.Email);
+                $('#Department').val(response.Department);
+
+
+                $('button[data-id="create"]').prop('disabled', true);
+                $('button[data-id="update"]').prop('disabled', false);
+                $('button[data-id="delete"]').prop('disabled', false);
+            },
+            'json').fail(function () {
+
+            });
+        };
+
+        var createPerson = function () {
+            let url = '@Url.Action("CreatePerson", "Professors")';
+            let Name = $('#Name').val();
+            let Email = $('#Email').val();
+            let Department = $('#departments').val();
+
+            $.get(url, { Name: Name, Email: Email, Department: Department }, function (response, status) {
+                var selectList = $('#peopleList');
+                selectList.append(`<option value="${response.id}">${Name}, ${Email}, ${Department}</option>`);
+
+                clearFields();
+            });
+        };
+
+        var updatePerson = function () {
+            let url = '@Url.Action("UpdatePerson", "Professors")';
+            let Name = $('#Name').val();
+            let Email = $('#Email').val();
+            let Department = $('Department').val();
+
+            $.get(url, { id: profId, ame: Name, Email: Email, Department: Department }, function (response, status) {
+                $('#peopleList option:selected').text(`${Name}, ${Email}, ${Department}`);
+
+                clearFields();
+            });
+        };
+
+        var deletePerson = function () {
+            let url = '@Url.Action("DeletePerson", "Professors")';
+            $.get(url, { id: profId }, function (response, status) {
+                $('#peopleList option:selected').remove();
+
+                clearFields();
+            });
+        };
+
+    </script>
+
+}
